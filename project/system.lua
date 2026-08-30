@@ -1292,7 +1292,7 @@ end
 
 LZE2D.ZOMBIE.__DELEGATE__ = {
 	Rule_OnRoundStart = function(self)
-		if #self.RoundZombies > 0 then
+		if self.RoundZombies and #self.RoundZombies > 0 then
 			table.insert(self.ZombieHistory, self.RoundZombies)
 			if #self.ZombieHistory > scoreboard.max - 1 then
 				table.remove(self.ZombieHistory, 1)
@@ -1303,7 +1303,7 @@ LZE2D.ZOMBIE.__DELEGATE__ = {
 		self.NewPlayers = {}
 	end,
 	Rule_OnPlayerDisconnect = function(player, self)
-		for k, v in pairs(self.RoundZombies) do
+		for k, v in pairs(self.RoundZombies or {}) do
 			if v == player then
 				table.remove(self.RoundZombies, k)
 				break
@@ -1317,7 +1317,7 @@ LZE2D.ZOMBIE.__DELEGATE__ = {
 			end
 		end
 		
-		for _, roundList in ipairs(self.ZombieHistory) do
+		for _, roundList in ipairs(self.ZombieHistory or {}) do
 			for k, v in pairs(roundList) do
 				if v == player then
 					table.remove(roundList, k)
