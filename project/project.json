@@ -1,0 +1,67 @@
+{
+    "game":[
+		  "common.lua"
+		, "settings.lua"
+		, "game.lua"
+		, "system.lua"
+    ]
+	, "ui":[
+          "common.lua"
+        , "settings.lua"
+        , "ui.module.lua"
+        , "ui.face.lua"
+        , "ui.func.lua"
+        , "system.lua"
+    ],
+	
+	"００": [],
+	"００　Czack Framework 26s3.1": [],
+	"００　Czack Framework 26s3.1": [],
+	
+	"０１": [],
+	"０１　#czackframework_lze2d_gamemode": [],
+	"０１　#czackframework_lze2d_gamemode": [],
+	
+	"０２": [],
+	"０２　Map Creator: ": [],
+	"０２　地圖製作：": [],
+	
+	"０３": [],
+	"０３　Programmer: DestroyerI滅世I ( Czack )": [],
+	"０３　程式設計：DestroyerI滅世I ( Czack )": [],
+	
+	
+	
+	"０４": [],
+	"０４ Framework & Game Mode Release Notice": [],
+	"０４ 框架與遊戲模式公開聲明": [],
+	
+	"０５": [],
+	"０５ Original Work & Map Creation Licensing": [],
+	"０５ 原創性與地圖創作使用規範": [],
+	
+	"０６": [],
+	"０６ All framework architectures and Lua Zombie Escape 2D resources are original by DestroyerI (Czack)": [],
+	"０６ 本專案之底層框架與 Lua 殭屍大逃殺 2D 相關架構皆屬 DestroyerI滅世I ( Czack ) 原創": [],
+	
+	"０７": [],
+	"０７ Creators are welcome to build maps using this full framework, but dismantling or rebranding core modules is prohibited": [],
+	"０７ 歡迎創作者直接完整引用本框架進行地圖創作，但嚴禁私自拆解底層核心、抹除署名或移植為其他私有模式": [],
+	
+	"０８": [],
+	"０8 Counter-Strike Online belongs to NEXON & Gamania. Please respect original creators' effort": [],
+	"０８ CSO 相關資產屬原版權方所有；請尊重原創開發者之心血與設計理念": [],
+	
+	"０９": [],
+	"０９ This framework is shared for direct map integration and project evolution": [],
+	"０９ Instead of stripping modules, please focus on refining and advancing this framework together. Thank you": [],
+	"０９ 此專案公開旨在提供完整的地圖開發支援，並凝聚了作者長期的架構特色": [],
+	"０９ 請勿肆意搬運拆解核心模組，期盼大家專注於本專案本身的演進與地圖內容創作，謝謝配合": [],
+	
+	"１０": [],
+	"１０ If you have any questions or bug reports, feel free to reach out via:": [],
+	"１０ 如有任何疑問或問題回報，歡迎透過以下管道聯繫：": [],
+	"１０ Gmail: czacknightw@gmail.com": [],
+	"１０ Discord: czktw.1207": [],
+	"１０ QQ: 3775231711": []
+}

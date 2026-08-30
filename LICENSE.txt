@@ -1,0 +1,36 @@
+Czack Framework & Lua Zombie Escape 2D (LZE2D) Public License
+Version: 26s3.1
+Copyright (c) 2026 DestroyerI滅世I (Czack). All rights reserved.
+
+==============================================================================
+TERMS AND CONDITIONS FOR USE AND MAP CREATION (使用與地圖創作授權條款)
+==============================================================================
+
+1. Third-Party Intellectual Property (第三方智財聲明)
+   - Counter-Strike Online (CSO)及其遊戲資產版權分別隸屬於 NEXON 與 遊戲橘子 (Gamania)。
+   - 本專案屬社群非商業原創開發，旨在拓展 CSO Studio 模式玩法與地圖創作生態。
+
+2. Permitted Map Creation Use (允許的地圖創作授權)
+   - 本專案完整開放給所有地圖創作者（Map Creators）使用。
+   - 創作者可在完整保留本框架（Czack Framework）的前提下，基於 Lua Zombie Escape 2D 
+     進行地圖關卡設計、物件擺放、觸發器配置與公開發布。
+
+3. Dismantling and Rebranding Restrictions (禁止拆解與搬運限制)
+   - 嚴禁將本專案內的底層邏輯（包括但不限於 common.lua, system.lua, ui.* 等核心模組）
+     拆解、剝離、修改署名後，作為獨立腳本或拼裝進其他自訂模式中發布。
+   - You MAY NOT strip, extract, or repackage core framework modules for standalone 
+     derivative systems or private scripts without explicit written permission.
+
+4. Attribution Integrity (署名與版權標識)
+   - 所有使用本框架發布之地圖或衍生內容，均不得移除或竄改內嵌之作者資訊 
+     (DestroyerI滅世I / Czack)、專案版本號與聯絡資訊。
+
+5. Issue Reporting & Maintenance (問題回報與維護)
+   - 若在地圖製作或運行過程中發現系統 Bug 或有優化建議，請透過官方管道進行回報：
+     - Gmail: czacknightw@gmail.com
+     - Discord: czktw.1207
+     - QQ: 3775231711
+
+6. Disclaimer (免責聲明)
+   - 本軟體按「現狀（AS IS）」提供，作者不對任何因使用本代碼所引發之遊戲閃退、
+     數據異常或相容性問題承擔法律責任。
