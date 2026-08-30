@@ -1389,7 +1389,7 @@ LZE2D.ZOMBIE.__DELEGATE__ = {
 				respawn = true
 			end
 			
-			for k, v in pairs(self.RoundZombies) do
+			for k, v in pairs(self.RoundZombies or {}) do
 				self:SETHOST(v)
 				if respawn then
 					v.position = self.DATA.tSPAWNPOINT[math.random(#self.DATA.tSPAWNPOINT)]
