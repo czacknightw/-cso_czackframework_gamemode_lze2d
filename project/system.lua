@@ -1266,7 +1266,7 @@ LZE2D.ZOMBIE.__INIT__ = function(self)
 	end})
 	
 	Des.Game.Blua:ADD("DimZombieFlinch", {{"on"}, {"flinch"}, function(env)
-		self.DATA.flFLINCH = env.flinch
+		self.DATA.flFLINCH = env.flinch or 1
 		
 		for k, v in pairs(self:GETPLAYERS()) do
 			v.flinch = env.flinch
@@ -1274,7 +1274,7 @@ LZE2D.ZOMBIE.__INIT__ = function(self)
 	end})
 	
 	Des.Game.Blua:ADD("DimZombieKnockback", {{"on"}, {"knockback"}, function(env)
-		self.DATA.flKNOCKBACK = env.knockback
+		self.DATA.flKNOCKBACK = env.knockback or 1
 		
 		for k, v in pairs(self:GETPLAYERS()) do
 			v.knockback = env.knockback
@@ -1282,11 +1282,11 @@ LZE2D.ZOMBIE.__INIT__ = function(self)
 	end})
 	
 	Des.Game.Blua:ADD("SetTriggerZombieFlinch", {{"on", "player"}, {"flinch"}, function(env)
-		v.flinch = env.flinch
+		v.flinch = env.flinch or 1
 	end})
 	
 	Des.Game.Blua:ADD("SetTriggerZombieKnockback", {{"on", "player"}, {"knockback"}, function(env)
-		v.knockback = env.knockback
+		v.knockback = env.knockback or 1
 	end})
 end
 
